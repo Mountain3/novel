@@ -1,0 +1,30 @@
+<extend name='Layout/index' />
+<block name="body">
+	<div class="container">
+		<div class='row'>
+			<p style= "height:50px;text-align:center;line-height:50px;font-size:30px;background-color:#5CB85C;color:#D2322D">欢迎光临</p>
+		</div>
+		<div class='row'>
+			<div class='col-xs-12'>
+				<table class="table table-bordered table-hover">
+					<tr>
+						<th>编号</th>
+						<th>管理员名</th>
+						<th>性别</th>
+						<th>权限</th>
+						<th>操作</th>
+					</tr>
+					<volist name='data' id='vo'>
+					<tr>
+						<td>{$vo.adminid}</td>
+						<td>{$vo.adminname}</td>
+						<td>{$vo.adminsex}</td>
+						<td>{$vo.adminrole}</td>
+						<td><a href="" class='btn btn-danger'>删除</a> <a href="" class='btn btn-warning'>修改</a></td>
+					</tr>
+					</volist>
+				</table>
+			</div>
+		</div>
+	</div>
+</block>

@@ -1,0 +1,1 @@
+a:5:{i:0;s:6:"CateId";i:1;s:8:"CateName";i:2;s:7:"CatePid";s:3:"_pk";s:6:"CateId";s:5:"_type";a:3:{s:6:"CateId";s:7:"int(10)";s:8:"CateName";s:12:"varchar(255)";s:7:"CatePid";s:7:"int(10)";}}

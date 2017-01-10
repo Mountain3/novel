@@ -1,0 +1,12 @@
+[ 2017-01-04T09:35:40+08:00 ] ::1 /app/Home/User/test
+ERR: 1364:Field 'age' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `league` (`name`,`grade`) VALUES ('jack','s56')
+
+[ 2017-01-04T09:40:36+08:00 ] ::1 /app/Home/User/test
+ERR: 1364:Field 'age' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `league` (`name`,`grade`) VALUES ('jack','s56')
+
+[ 2017-01-04T09:40:37+08:00 ] ::1 /app/Home/User/test
+ERR: 1364:Field 'age' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `league` (`name`,`grade`) VALUES ('jack','s56')
+
