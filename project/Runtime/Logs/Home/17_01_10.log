@@ -1,10 +1,67 @@
-[ 2017-01-10T10:54:56+08:00 ] ::1 /project/Home/Index/index
-ERR: 1054:Unknown column 'id' in 'where clause'
- [ SQL语句 ] : SELECT * FROM `book` WHERE ( id=1 ) 
+[ 2017-01-10T20:20:35+08:00 ] ::1 /project/index.php/Home/Category/category/id/3.html
+ERR: 无法加载控制器:Category
 
-[ 2017-01-10T11:59:55+08:00 ] ::1 /project/index.php/Home/Index/details.html
-ERR: 非法操作:details
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/json3_2.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
 
-[ 2017-01-10T12:00:14+08:00 ] ::1 /project/index.php/Home/Index/detail.html
-ERR: 非法操作:detail
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/yuedu-floats.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/message_2.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/gen_bc92e66ab65690b24738ed3f1cd52d60.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/gen_dd1631cf6305adaf68d758d119cff3a0.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/tabs.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/tplforindex.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/wrating.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/log.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/ntes.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/yuedu-floats.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/gen_bc92e66ab65690b24738ed3f1cd52d60.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/tabs.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:40+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/tplforindex.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:41+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/wrating.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
+
+[ 2017-01-10T20:44:41+08:00 ] ::1 /project/index.php/Home/Category/category/bookid/js/ntes.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book` WHERE ( bookid=js ) 
 

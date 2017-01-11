@@ -1,1 +1,0 @@
-a:7:{i:0;s:7:"AdminId";i:1;s:13:"AdminPassWord";i:2;s:9:"AdminName";i:3;s:8:"AdminSex";i:4;s:9:"AdminRole";s:3:"_pk";s:7:"AdminId";s:5:"_type";a:5:{s:7:"AdminId";s:7:"int(10)";s:13:"AdminPassWord";s:12:"varchar(255)";s:9:"AdminName";s:12:"varchar(255)";s:8:"AdminSex";s:10:"tinyint(1)";s:9:"AdminRole";s:10:"tinyint(1)";}}

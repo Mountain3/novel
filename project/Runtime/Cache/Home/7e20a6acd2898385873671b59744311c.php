@@ -4,10 +4,9 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <meta name="applicable-device" content="pc">
-<title>网易云阅读--海量新闻、精彩资讯、图书、免费小说、漫画，免费畅读</title>
-<meta name="keywords" content="小说，免费小说，热门小说，言情小说，小说下载，漫画，图书，热点新闻，好文章，电子书，免费杂志，网易，阅读，网易云阅读">
-<meta name="description" content="网易云阅读提供丰富的原创小说、畅销好书、热门新闻和文章免费在线阅读和下载。包括文学、传记、艺术、经济管理，官场小说、都市小说、言情小说，热血漫画，旅游、电影杂志等。手机上支持Android、iPhone、iPad、Android Pad、Windows Phone、Windows8等多平台免费下载！">
-<meta name="baidu-site-verification" content="6NjRjkfBUp" />
+<title>阅读--海量新闻、精彩资讯、图书、免费小说、漫画，免费畅读</title>
+<meta name="keywords" content="小说，免费小说，热门小说，言情小说，小说下载，漫画，图书，热点新闻，好文章，电子书，免费杂志，阅读">
+<meta name="description" content="阅读提供丰富的原创小说、畅销好书、热门新闻和文章免费在线阅读和下载。包括文学、传记、官场小说、都市小说、言情小说旅游、电影杂志等。">
 <link rel="shortcut icon" href="//yuedust.yuedu.126.net/favicon.ico?20170109104345" />
 <link type="text/css" rel="stylesheet" href="/project/Public/Index/css/index_1.css"/>
 <!--[if lt IE 9]>
@@ -42,9 +41,7 @@
         <div class="m-headerbottom">
             <div class="inner">
                 <ul class="m-mianlist">
-                	
-                	
-                    <li>
+                	<li>
                     	<a class="crt" href="/index" onclick="_gaq.push(['_trackEvent', 'navi', 'home']);">首页</a>
                     </li>
                     <li>
@@ -103,25 +100,17 @@
                 <div id="J_MM" class="m-menu">
                     <div class="category">
                         <div class="sub">
-                            <h3 class="fl">男生小说<i></i></h3>
-                            <?php if(is_array($man)): $i = 0; $__LIST__ = $man;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p>
-                                <a class="hot" href="" target="_blank" data-model="index" data-opration="man"><?php echo ($vo["catename"]); ?></a>
+                            <h3 class="fl" style="">男生小说</h3>
+                            <?php if(is_array($man)): $i = 0; $__LIST__ = $man;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="width:77px;float:left;margin:0px;padding:10px 0px 0px;text-align:center;">
+                                <a class="hot" href="<?php echo U('Category/category',array('bookid'=>$vo['cateid']));?>" target="_blank" data-model="index" data-opration="man"><?php echo ($vo["catename"]); ?></a>
                             </p><?php endforeach; endif; else: echo "" ;endif; ?>
                            
                         </div>
-                        <!-- <div class="more" style="display: none;">
-                            <p class="f-cb">
-                                <a href="/yc/category/2" target="_blank" data-model="index" data-opration="man">科幻奇幻</a>
-                                <a href="/yc/category/3" target="_blank" data-model="index" data-opration="man">军事谍战</a>
-                                <a class="ll" href="/yc/category/10" target="_blank" data-model="index" data-opration="man">同人网游</a>
-                                <a class="ll" href="/yc/category/11" target="_blank" data-model="index" data-opration="man">历史传奇</a>
-                            </p>
-                        </div> -->
                     </div>
-                    <div class="category">
+                    <div class="category" style="margin-top:50px;">
                         <div class="sub">
-                            <h3>女生小说<i></i></h3>
-                            <?php if(is_array($girl)): $i = 0; $__LIST__ = $girl;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p>
+                            <h3 class="fl" style="padding-top:20px;">女生小说</h3>
+                            <?php if(is_array($girl)): $i = 0; $__LIST__ = $girl;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="width:77px;float:left;margin:0px;padding:10px 0px 0px;text-align:center;">
                                 <a class="hot" href="" target="_blank" data-model="index" data-opration="girl"><?php echo ($vo["catename"]); ?></a>
                             </p><?php endforeach; endif; else: echo "" ;endif; ?>
                             
@@ -265,15 +254,15 @@
                     <div class="m-book-four">
                         <div class="contents">
                             <ul class="book f-cb">
-                                <li class="up">
+                    <?php if(is_array($manBooks)): $i = 0; $__LIST__ = $manBooks;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="up">
                                     <div class="m-book-info f-cb">
-                                        <a class="cover" href="<?php echo U('detail');?>" target="_blank" title="<?php echo ($manBooks[0]['bookname']); ?>"><img src="/project/Public/Images/<?php echo ($manBooks['0']['bookpic']); ?>" data-model="nxxs" data-opration="source" alt="<?php echo ($manBooks[0]['bookname']); ?>"></a>
-                                        <h3><a href="<?php echo U('detail');?>" target="_blank" data-model="nxxs" data-opration="source" title=""><?php echo ($manBooks[0]['bookname']); ?></a></h3>
-                                        <p><?php echo ($manBooks[0]['bookauthor']); ?></p>
-                                        <p class="disc eps"><?php echo ($manBooks[0]['bookpro']); ?></p>
-                                        <a class="read" href="<?php echo U('detail');?>" target="_blank" data-model="nxxs" data-opration="book_reader">立即阅读<i></i></a>
+                                        <a class="cover" href="<?php echo U('Detail/detail',array('id'=>$vo['bookid']));?>" target="_blank" title="<?php echo ($vo['bookname']); ?>"><img src="/project/Public/Images/<?php echo ($vo['bookpic']); ?>" data-model="nxxs" data-opration="source" alt="<?php echo ($vo['bookname']); ?>"></a>
+                                         <h3><a href="<?php echo U('Detail/detail',array('id'=>$vo['bookid']));?>" target="_blank" data-model="nxxs" data-opration="source" title=""><?php echo ($vo['bookname']); ?></a></h3>
+                                        <p><?php echo ($vo['bookauthor']); ?></p>
+                                        <p class="disc eps"><?php echo ($vo['bookpro']); ?></p>
+                                        <a class="read" href="<?php echo U('Detail/detail',array('id'=>$vo['bookid']));?>" target="_blank" data-model="nxxs" data-opration="book_reader">立即阅读<i></i></a>
                                     </div>
-                                </li>
+                                </li><?php endforeach; endif; else: echo "" ;endif; ?>
                             </ul>
                         </div>
                     </div>
